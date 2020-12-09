@@ -51,6 +51,31 @@ function App() {
                     </Cell>
                 </Grid>
             </div>
+            <div className = 'text-banner'>
+                <h1>
+                  Full Stack Web Developer
+                </h1>
+                <hr/>
+                <p> HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJs | Express | </p>
+                <div className ='Social_Links'>
+                    <a  href ='http//google.com' rel = 'noopener noreferrer' target = '_blank' >
+                      <i className = 'fa fa-github-square' aria-hidden = 'true'/>
+                    </a>
+                    <a  href ='http//google.com' rel = 'noopener noreferrer' target = '_blank' >
+                      <i className = 'fa fa-linkedin-square' aria-hidden = 'true'/>
+                    </a>
+                    
+                    <a  href ='http//google.com' rel = 'noopener noreferrer' target = '_blank' >
+                      <i className = 'fa fa-facebook-square' aria-hidden = 'true'/>
+                    </a>
+
+                    <a  href ='http//google.com' rel = 'noopener noreferrer' target = '_blank' >
+                      <i className = 'fa fa-youtube-square' aria-hidden = 'true'/>
+                    </a>
+
+                </div>
+            </div>
+            
         </Content>
     </Layout>
 
