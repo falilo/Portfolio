@@ -3,14 +3,14 @@
 import React ,{Component} from 'react';
 
 
-class About extends Component{
+class Project extends Component{
     render(){
         return(
             <div>
-                <h1>About page</h1>
+                <h1>Project page</h1>
             </div>
         )
     }
 }
 
-export default About;
+export default Project;
