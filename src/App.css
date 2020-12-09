@@ -11,3 +11,9 @@
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
+
+.cont{
+  display: grid;
+  justify-content: center;
+  align-content: center; 
+}

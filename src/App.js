@@ -1,4 +1,4 @@
-import React , { Components} from 'react'
+// import React , { Components} from 'react'
 import './App.css';
 import { Layout, Header, Navigation,Drawer,Content } from 'react-mdl';
 
@@ -7,6 +7,8 @@ import Resume from './Components/Resume';
 import Project from './Components/Project';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
+
+import { Cell, Grid } from 'react-mdl';
 
 function App() {
   return (
@@ -36,7 +38,19 @@ function App() {
         </Drawer>
         <Content>
             <div className="page-content" />
+
             {/* <Main/> */}
+
+            <div className = "cont" style ={ {width : '100%', margin : 'auto'}}>
+                <Grid className = 'content'>
+                    <Cell col = {10}>
+                        <img 
+                         src ='https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png'
+                         alt="avator" />
+                        
+                    </Cell>
+                </Grid>
+            </div>
         </Content>
     </Layout>
 
