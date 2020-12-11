@@ -19,7 +19,7 @@ toggleCategories(){
                     background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyuBvQO8VQTWNNgfqGkS6yJZFBf8Pb3BDTCg&usqp=CAU)'}}>
                       My RobotFriends
                     </CardTitle>
-                    <CardText className ="test-styling">
+                    <CardText className ="test-styling" style={{ background:'pink', fontFamily:'arial',color:'black',fontSize:'1em'}}>
                     I’m a software engineer who loves building things for the web. 
                     I don't have my bachelors degree in computer science yet, But I am already landing 
                     some strong, wonderful knowledge and skill for React full stack and also some knowledge 
@@ -30,7 +30,7 @@ toggleCategories(){
                     <CardActions border>
                     
                         <Button  colored  > 
-                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}  >
+                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none',color:'gray'}}  >
                         github 
                         </a>
                         </Button>

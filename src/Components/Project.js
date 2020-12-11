@@ -15,13 +15,13 @@ toggleCategories(){
         return(
             <div> 
               
-                <Card shadow= {5} style ={{minwith:'500', margin : 'auto'}}>
-                    <CardTitle style= {{ color:"#fff", height:'180px',
-                    background:'url(https://i.pinimg.com/originals/cd/12/63/cd126300df9112e7cfabc0fc6694037a.jpg)'}}>
-                      My RobotFriends
+                <Card shadow= {5} style ={{minwith:'400', margin : 'auto'}}>
+                    <CardTitle style= {{ color:"#00ff0", height:'350px',
+                    background:'url(https://robohash.org/8)'}}>
+                      My Robot Friends
                     </CardTitle>
                     <CardText>
-                        this my one of my cool project  so far
+                        this is  one of my favorite project ever!
                     </CardText>
                     <CardActions border>
                         <Button  colored>
@@ -30,7 +30,7 @@ toggleCategories(){
                              </a>
                              </Button>
                         <Button  colored> 
-                        <a  href ='https://github.com/abdel1413/myrobotefriend' style ={{textDecoration:'none'}} >
+                        <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
                         Live Demo 
                         </a>
                         </Button>
@@ -45,16 +45,27 @@ toggleCategories(){
         return(
             <div> 
                <Card shadow= {5} style ={{minwith:'500', margin : 'auto'}}>
-                    <CardTitle style= {{ color:"#fff", height:'180px',
+                    <CardTitle style= {{ color:"#fff", height:'170px',
                     background:'url(https://i.pinimg.com/originals/cd/12/63/cd126300df9112e7cfabc0fc6694037a.jpg)'}}>
                       My RobotFriends
                     </CardTitle>
                     <CardText>
-                        this my one of my cool project  so far
+                        <div>
+                        <img src='abdel.jpeg' alt =''/>
+                        </div>
+                        
                     </CardText>
                     <CardActions border>
-                        <Button  colored> github </Button>
-                        <Button  colored> Live Demo </Button>
+                        <Button  colored>
+                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}  >
+                             github 
+                             </a>
+                             </Button>
+                        <Button  colored> 
+                        <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
+                        Live Demo 
+                        </a>
+                        </Button>
                     </CardActions>
                     <CardMenu style ={{color:'#fff'}}>
                         <IconButton name='share'/>
@@ -65,17 +76,31 @@ toggleCategories(){
     }else if(this.state.activeTab === 2){
         return(
             <div> 
-                <Card shadow= {5} style ={{minwith:'500', margin : 'auto'}}>
+                <Card shadow= {5} style ={{minwith:'650', margin : 'auto'}}>
                     <CardTitle style= {{ color:"#fff", height:'180px',
                     background:'url(https://i.pinimg.com/originals/cd/12/63/cd126300df9112e7cfabc0fc6694037a.jpg)'}}>
-                      My RobotFriends
+                       Technology used for My RobotFriends Project
                     </CardTitle>
                     <CardText>
-                        this my one of my cool project  so far
+                        <div style ={{color:'black'}}>
+                            <h3>React-dom</h3>
+                            <h3>React-router-dom</h3>
+                            <h3>React-mdl</h3>
+                            <h3>Tachyons</h3>
+                            <h3>React Life cycle</h3>
+                        </div>
                     </CardText>
                     <CardActions border>
-                        <Button  colored> github </Button>
-                        <Button  colored> Live Demo </Button>
+                        <Button  colored>
+                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}  >
+                             github 
+                             </a>
+                             </Button>
+                        <Button  colored> 
+                        <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
+                        Live Demo 
+                        </a>
+                        </Button>
                     </CardActions>
                     <CardMenu style ={{color:'#fff'}}>
                         <IconButton name='share'/>
@@ -90,7 +115,7 @@ toggleCategories(){
         return(
             <div className = 'category_tab'>
                <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab:tabId})} ripple>
-                   <Tab>My RobotFriend</Tab>
+                   <Tab>Project</Tab>
                    <Tab>Image</Tab>
                    <Tab>Technologies</Tab>
                </Tabs>
