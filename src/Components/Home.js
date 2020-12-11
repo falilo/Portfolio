@@ -2,13 +2,20 @@
 
 
 import React ,{Component} from 'react';
+import { Cell, Grid } from 'react-mdl';
 
 
 
 class Home extends Component{
     render(){
         return(
-            <div><h1>Home page</h1></div>
+            <div style = {{width:'100%', margin :"aut"}}>
+                <Grid className = "home-grid">
+                    <Cell col ={12}>
+                       
+                    </Cell>
+                </Grid>
+            </div>
         )
     }
 }

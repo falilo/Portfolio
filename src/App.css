@@ -29,18 +29,19 @@ img{
   background-color: black;
   opacity: .8;
   margin:auto;
-  width: 66%;
+  width: 70%;
   border-radius: 10px;
 }
 
 .text-banner h1{
-  font-size: 66px;
+  font-size: 55px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 
 .text-banner hr{
-  border-top: 8px dotted white;
+  border-top: 5px dotted white;
   margin: auto;
   width: 50%;
 }
@@ -54,6 +55,7 @@ img{
 .Social_Links{
   display: flex;
   justify-content: space-around; 
+  margin: auto;
 }
 
 .Social_Links i{

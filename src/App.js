@@ -1,14 +1,18 @@
 // import React , { Components} from 'react'
 import './App.css';
 import { Layout, Header, Navigation,Drawer,Content } from 'react-mdl';
+import { Link } from 'react-router-dom';
 
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Project from './Components/Project';
-import Contact from './Components/Contact';
-import Home from './Components/Home';
+import Main from './Components/Main'
+// import About from './Components/About';
+// import Resume from './Components/Resume';
+// import Project from './Components/Project';
+// import Contact from './Components/Contact';
+// import Home from './Components/Home';
+
 
 import { Cell, Grid } from 'react-mdl';
+
 
 function App() {
   return (
@@ -18,28 +22,27 @@ function App() {
       <Layout>
         <Header  className = 'header' title="Title" scroll>
             <Navigation>
-                <a href="/Home">Home</a>
-                <a href="/About">About</a>
-                <a href="/Resume">Resume</a>
-                <a href="/Project">Project</a>
-                <a href="/Contact">Contact</a>
+            <Link to ="/">Home</Link>
+                <Link to ="/About">About</Link>
+                <Link to ="/Resume">Resume</Link>
+                <Link to ="/Project">Project</Link>
+                <Link to ="/Contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/Home" Home = {()=>Home}>Home</a>
-                <a href="/About" About = {()=>About}>About</a>
-                <a href="/Resume" Resume = {()=>Resume}>Resume</a>
-                <a href="/Contact"  Project  = {()=>Project}> Project </a>
-                <a href="/Project" Contact = {()=>Contact}>Contact</a>
-              
+                <Link to ="/">Home</Link>
+                <Link to ="/About">About</Link>
+                <Link to ="/Resume">Resume</Link>
+                <Link to ="/Project">Project</Link>
+                <Link to ="/Contact">Contact</Link>
             </Navigation>
             
         </Drawer>
         <Content>
             <div className="page-content" />
 
-            {/* <Main/> */}
+            <Main/>
 
             <div className = "cont" style ={ {width : '100%', margin : 'auto'}}>
                 <Grid className = 'content'>
@@ -47,18 +50,19 @@ function App() {
                         <img 
                          src ='https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png'
                          alt="avator" />
-                        
+                        <h2>A.Tchakoura</h2>
                     </Cell>
                 </Grid>
             </div>
             <div className = 'text-banner'>
+
                 <h1>
                   Full Stack Web Developer
                 </h1>
                 <hr/>
-                <p> HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJs | Express | </p>
+                <p> HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJs | Express  </p>
                 <div className ='Social_Links'>
-                    <a  href ='http//google.com' rel = 'noopener noreferrer' target = '_blank' >
+                    <a  href ='https://github.com/abdel1413' rel = 'noopener noreferrer' >
                       <i className = 'fa fa-github-square' aria-hidden = 'true'/>
                     </a>
                     <a  href ='http//google.com' rel = 'noopener noreferrer' target = '_blank' >
