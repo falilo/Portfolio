@@ -63,3 +63,14 @@ img{
   padding: 5px;
   font-size: 3em;
 }
+
+.register_components{
+  text-align: center;
+  margin-top: 100px;
+}
+.register_components button{
+  margin-top: 5px;
+  padding: 2px;
+  border-radius: 12px solid black;
+  font-size: 15px;
+}
