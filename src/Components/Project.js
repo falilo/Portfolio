@@ -25,12 +25,12 @@ toggleCategories(){
                     </CardText>
                     <CardActions border>
                         <Button  colored>
-                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}  >
+                        <a  href ='https://github.com/abdel1413/myportfolio.git' style ={{textDecoration:'none'}}  >
                              github 
                              </a>
                              </Button>
                         <Button  colored> 
-                        <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
+                        <a  href ='https://abdel1413.github.io/myportfolio/' style ={{textDecoration:'none'}} >
                         Live url 
                         </a>
                         </Button>
@@ -87,7 +87,7 @@ toggleCategories(){
                             <h3>React-router-dom</h3>
                             <h3>React-mdl</h3>
                             <h3>Tachyons</h3>
-                            <h3>React Life cycle</h3>
+                            
                         </div>
                     </CardText>
                     <CardActions border>
