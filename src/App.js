@@ -2,7 +2,7 @@
 import './App.css';
 import { Layout, Header, Navigation,Drawer,Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
-
+import photo from './Components/abdel.jpeg';
 import Main from './Components/Main'
 // import About from './Components/About';
 // import Resume from './Components/Resume';
@@ -46,10 +46,14 @@ function App() {
 
             <div className = "cont" style ={ {width : '100%', margin : 'auto'}}>
                 <Grid className = 'content'>
-                    <Cell col = {10}>
-                        <img 
-                         src ='https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png'
-                         alt="avator" />
+                      <Cell col = {10}> 
+                      {/* <div id = "photo-container" > */} 
+                        <img  id = "photo"
+                        //  src ='https://cdn0.iconfinder.com/data/icons/avatars-6/500/Avatar_boy_man_people_account_client_male_person_user_work_sport_beard_team_glasses-512.png'
+                        //  alt="avator" />
+
+                        src ={photo} alt =''/> 
+                          {/* </div> */}
                         <h2>A.Tchakoura</h2>
                     </Cell>
                 </Grid>

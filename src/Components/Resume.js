@@ -1,14 +1,16 @@
 import React ,{Component} from 'react';
-
+import resume from './Aboulaye_Resume.pdf'
 
 class Resume extends Component{
     render(){
         return(
-            <div>
-                <img src ="abdel.jpeg" alt ="" />
+            <div id ="my-resume">
+                <a href = {resume} rel = 'noopener noreferrer' target = "_blank"> Download</a>
             </div>
         )
     }
 }
 
 export default Resume ;
+
+ 

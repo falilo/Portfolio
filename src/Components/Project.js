@@ -11,7 +11,7 @@ class Project extends Component{
     }
 
 toggleCategories(){
-    if(this.state.activeTab ===0){
+    if(this.state.activeTab === 0){
         return(
             <div> 
               
@@ -31,7 +31,7 @@ toggleCategories(){
                              </Button>
                         <Button  colored> 
                         <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
-                        Live Demo 
+                        Live url 
                         </a>
                         </Button>
                     </CardActions>
@@ -41,7 +41,7 @@ toggleCategories(){
                 </Card>
              </div>
         )
-    }else if(this.state.activeTab ===1){
+    }else if(this.state.activeTab === 1){
         return(
             <div> 
                <Card shadow= {5} style ={{minwith:'500', margin : 'auto'}}>

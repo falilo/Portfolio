@@ -1,7 +1,8 @@
 
 import React ,{Component} from 'react';
 import { Tab, Tabs,Grid,Cell,Card, CardMenu,CardText,CardTitle, CardActions, Button, IconButton } from 'react-mdl';
-
+ import mypicture from './Aboulaye.jpeg';
+ import myresume from './Aboulaye_Resume.pdf';
 
 class About extends Component{
     constructor(props){
@@ -10,17 +11,18 @@ class About extends Component{
     }
 
 toggleCategories(){
-    if(this.state.activeTab ===0){
+    if(this.state.activeTab === 0){
         return(
             <div> 
               
                 <Card shadow= {5} style ={{minwith:'400', margin : 'auto'}}>
-                    <CardTitle style= {{ color:"#fff", height:'180px',
+                    <CardTitle style= {{ color:"#fff", height:'175px',
                     background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyuBvQO8VQTWNNgfqGkS6yJZFBf8Pb3BDTCg&usqp=CAU)'}}>
                       My RobotFriends
                     </CardTitle>
                     <CardText className ="test-styling" style={{ background:'pink', fontFamily:'arial',color:'black',fontSize:'1em'}}>
-                    I’m a software engineer who loves building things for the web. 
+                    I love software engineering and I always dream to become one of brillant software engineer
+                    in the world. I dream to building things for the web. 
                     I don't have my bachelors degree in computer science yet, But I am already landing 
                     some strong, wonderful knowledge and skill for React full stack and also some knowledge 
                     in Python which I learned for two years.
@@ -30,16 +32,15 @@ toggleCategories(){
                     <CardActions border>
                     
                         <Button  colored  > 
-                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none',color:'gray'}}  >
+                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}>
                         github 
                         </a>
                         </Button>
                         
                         <Button  colored>
-                            <a href = "Aboulaye_Resume.pdf" download style={{textDecoration:'none',color:'gray'}}> 
+                            <a href = { myresume} download style={{textDecoration:'none'}}> 
                                Resume 
                             </a> 
-                        
                         </Button>
                     </CardActions>
                     <CardMenu style ={{color:'#fff'}}>
@@ -48,7 +49,15 @@ toggleCategories(){
                 </Card>
              </div>
         )
+    }else if(this.state.activeTab === 1){
+        return(
+            <div  id ='my-pic'>
+                <h1> Welcome to my picture page!</h1>
+                <img src = {mypicture} alt =''/>
+            </div>
+        )
     }
+
 }
 
     render(){

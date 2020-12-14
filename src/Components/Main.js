@@ -18,26 +18,5 @@ const Main = ()=>(
                 <Route  path = "/Project" component = { Project } />
                 <Route  path = "/Contact" component = { Contact } />
             </Switch>
-
-
-        //      <Switch>
-        //     <Route path="Home" >
-        //             <Home/>
-        //     </Route> 
-        //     <Route path="About">
-        //         <About />
-        //     </Route>
-        //     <Route path="Resume">
-        //         <Resume />
-        //     </Route>
-        //     <Route path="Project">
-        //         <Project />
-        //     </Route>
-        //     <Route path="Contact">
-        //         <Contact />
-        //     </Route>
-        // </Switch> 
-    
-    
 )
 export default Main;

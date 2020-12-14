@@ -19,7 +19,7 @@ class Contact extends Component{
        // console.log(e.target.value)
         const fm = e.target.value
        console.log('/////////////',fm);
-    //    alert(`hey ${fm} your message was successful sent`);
+    //   alert(`hey ${fm} your message was successful sent`);
          
        
       };
@@ -38,9 +38,11 @@ class Contact extends Component{
         event.preventDefault();
         console.log(this.state)
     
+        alert(`hey ${this.state.Name} your message was successful sent`);
+        
         this.setState({Name:''})
        
-        alert(`hey ${this.Name} your message was successful sent`);
+        
         
         
 

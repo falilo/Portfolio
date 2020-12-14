@@ -3,6 +3,9 @@
   background: #833ab4;  
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+  /* position: fixed;
+  margin-top: 0;
+  margin-left: 0; */
 }
 
 .page-content{
@@ -10,6 +13,9 @@
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   text-align: center;
+  /* position: fixed;
+  margin-top: 0;
+  margin-left: 0; */
   
 }
 
@@ -20,10 +26,11 @@
   
 }
 
-img{
-  height: 250px;
-  padding-top: 5em;
-}
+/* img{
+  height: 200px;
+  padding-top: 2em;
+  width: 150px;
+} */
 
 .text-banner{
   background-color: black;
@@ -67,10 +74,36 @@ img{
 .register_components{
   text-align: center;
   margin-top: 100px;
+  
 }
 .register_components button{
   margin-top: 5px;
   padding: 2px;
   border-radius: 12px solid black;
   font-size: 15px;
+} 
+
+
+#photo{
+    border-radius: 50%;
+    height: auto;
+    width: 200px;
+    padding-top: 0px;
+
+}
+#my-pic{
+  text-align: center;
+   margin: 10px; 
+   height: auto;
+  /* width: 50%;
+  height: 50%; */
+}
+#my-resume a{
+  
+ display: flex;
+  color:blue; 
+   font-size: 1em;
+  font-weight: 30px; 
+ margin-left: auto;
+ 
 }
