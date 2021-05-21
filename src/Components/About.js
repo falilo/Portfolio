@@ -1,8 +1,8 @@
 
 import React ,{Component} from 'react';
 import { Tab, Tabs,Grid,Cell,Card, CardMenu,CardText,CardTitle, CardActions, Button, IconButton } from 'react-mdl';
- import mypicture from './Aboulaye.jpeg';
- import myresume from './Aboulaye_Resume.pdf';
+
+ import myresume from './RESUME.pdf';
 
 class About extends Component{
     constructor(props){
@@ -21,18 +21,17 @@ toggleCategories(){
                       My RobotFriends
                     </CardTitle>
                     <CardText className ="test-styling" style={{ background:'pink', fontFamily:'arial',color:'black',fontSize:'1em'}}>
-                    I love software engineering and I always dream to become one of brillant software engineer
-                    in the world. I dream to building things for the web. 
-                    I don't have my bachelors degree in computer science yet, But I am already landing 
-                    some strong, wonderful knowledge and skill for React full stack and also some knowledge 
-                    in Python which I learned for two years.
-                    I am always truggling to get at least one  software engineer internships
-                     before I finish my 4 years college.
+                    My name is Falilou Ouro Djobo
+                    I'm actively poursuing my goal to become software engineer
+                    where my skills I earned in four year college 
+                    in computer science major can be utilized. 
+                    This is my first portfolio I built as an individual project
+                    but I attached this link to download my resume
                     </CardText>
                     <CardActions border>
                     
                         <Button  colored  > 
-                        <a  href ='https://github.com/abdel1413/myportfolio.git' style ={{textDecoration:'none'}}>
+                        <a  href ='//https://github.com/falilo/myportfolio.git' style ={{textDecoration:'none'}}>
                         github 
                         </a>
                         </Button>
@@ -49,13 +48,6 @@ toggleCategories(){
                 </Card>
              </div>
         )
-    }else if(this.state.activeTab === 1){
-        return(
-            <div  id ='my-pic'>
-                <h1> Welcome to my picture page!</h1>
-                <img src = {mypicture} alt =''/>
-            </div>
-        )
     }
 
 }
@@ -65,7 +57,6 @@ toggleCategories(){
             <div className = 'category_tab'>
                <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab:tabId})} ripple>
                    <Tab>About Me</Tab>
-                   <Tab>Image</Tab>
                </Tabs>
                <section>
                    <div className = 'project-grid'>

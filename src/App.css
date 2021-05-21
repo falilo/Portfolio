@@ -33,7 +33,7 @@
 } */
 
 .text-banner{
-  background-color: black;
+  background-color: rgb(49, 13, 148);
   opacity: .8;
   margin:auto;
   width: 70%;
@@ -48,7 +48,7 @@
 }
 
 .text-banner hr{
-  border-top: 5px dotted white;
+  border-top: 5px line white;
   margin: auto;
   width: 50%;
 }
@@ -57,6 +57,7 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+  text-align: center;
 }
 
 .Social_Links{
@@ -67,8 +68,9 @@
 
 .Social_Links i{
   color: white;
-  padding: 5px;
+  padding: 25px;
   font-size: 3em;
+  ;
 }
 
 .register_components{
@@ -86,9 +88,10 @@
 
 #photo{
     border-radius: 50%;
-    height: auto;
+    height: 200px;
     width: 200px;
     padding-top: 0px;
+    text-align: center;
 
 }
 #my-pic{
@@ -106,5 +109,9 @@
   font-weight: 30px; 
  margin-left: auto;
  
+}
+.anim{
+  height: auto;
+  text-align: center;
 }
 

@@ -25,15 +25,10 @@ toggleCategories(){
                     </CardText>
                     <CardActions border>
                         <Button  colored>
-                        <a  href ='https://github.com/abdel1413/myportfolio.git' style ={{textDecoration:'none'}}  >
+                        <a  href ='https://github.com/falilo/myportfolio' style ={{textDecoration:'none'}}  >
                              github 
                              </a>
                              </Button>
-                        <Button  colored> 
-                        <a  href ='https://abdel1413.github.io/myportfolio/' style ={{textDecoration:'none'}} >
-                        Live url 
-                        </a>
-                        </Button>
                     </CardActions>
                     <CardMenu style ={{color:'#fff'}}>
                         <IconButton name='share'/>
@@ -49,23 +44,12 @@ toggleCategories(){
                     background:'url(https://i.pinimg.com/originals/cd/12/63/cd126300df9112e7cfabc0fc6694037a.jpg)'}}>
                       My RobotFriends
                     </CardTitle>
-                    <CardText>
-                        <div>
-                        <img src='abdel.jpeg' alt =''/>
-                        </div>
-                        
-                    </CardText>
                     <CardActions border>
                         <Button  colored>
-                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}  >
+                        <a  href ='https://github.com/falilo' style ={{textDecoration:'none'}}  >
                              github 
                              </a>
                              </Button>
-                        <Button  colored> 
-                        <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
-                        Live Demo 
-                        </a>
-                        </Button>
                     </CardActions>
                     <CardMenu style ={{color:'#fff'}}>
                         <IconButton name='share'/>
@@ -79,7 +63,6 @@ toggleCategories(){
                 <Card shadow= {5} style ={{minwith:'650', margin : 'auto'}}>
                     <CardTitle style= {{ color:"#fff", height:'180px',
                     background:'url(https://i.pinimg.com/originals/cd/12/63/cd126300df9112e7cfabc0fc6694037a.jpg)'}}>
-                       Technology used for My RobotFriends Project
                     </CardTitle>
                     <CardText>
                         <div style ={{color:'black'}}>
@@ -92,15 +75,10 @@ toggleCategories(){
                     </CardText>
                     <CardActions border>
                         <Button  colored>
-                        <a  href ='https://github.com/abdel1413' style ={{textDecoration:'none'}}  >
+                        <a  href ='https://github.com/falilo' style ={{textDecoration:'none'}}  >
                              github 
                              </a>
                              </Button>
-                        <Button  colored> 
-                        <a  href ='https://abdel1413.github.io/myrobotfriendslifecycle/' style ={{textDecoration:'none'}} >
-                        Live Demo 
-                        </a>
-                        </Button>
                     </CardActions>
                     <CardMenu style ={{color:'#fff'}}>
                         <IconButton name='share'/>
@@ -116,7 +94,6 @@ toggleCategories(){
             <div className = 'category_tab'>
                <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab:tabId})} ripple>
                    <Tab>Project</Tab>
-                   <Tab>Image</Tab>
                    <Tab>Technologies</Tab>
                </Tabs>
                <section>
